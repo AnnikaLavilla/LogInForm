@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: 100%; /* Changed width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #171a1f;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px; /* Added margin-bottom */
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#remember_me {
+margin-bottom: 10px;
+}
+
+/* Add margin between login button and remember me */
+.submit-btn {
+    margin-bottom: 10px;
+}
+
+/* Add margin between remember me and forgot password */
+.forgot-password {
+    margin-top: 20px;
+}
+
+/* Add margin between forgot password and social login */
+.social-login {
+    margin-top: 20px;
+}
+
+.forgot-password {
+    text-align: left;
+    margin-top: 10px;
+}
+
+a:link {
+    color: gray;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login button {
+    width: 45%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3b5998;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.social-login button:nth-child(2) {
+    background-color: #DB4437;
+}
+
+
+
